@@ -2,7 +2,9 @@
 
 This repository is based on the work of the [FakeChallenge.org](http://fakenewschallenge.org), and builds upon the baseline implementation produced for the challenge ([fnc1-baseline](https://github.com/FakeNewsChallenge/fnc-1-baseline)).
 
-Author - Angus Williams, github: @angusrw, email: angusrwilliams@gmail.com
+Author - Angus Williams
+github: @angusrw
+email: angusrwilliams@gmail.com
 
 
 ## Getting Started
