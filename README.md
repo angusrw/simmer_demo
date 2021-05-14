@@ -1,10 +1,20 @@
 # Simmer Headline Analysis Demo
 
-This repository is based on the work of the [FakeChallenge.org](http://fakenewschallenge.org), and builds upon the baseline implementation produced for the challenge ([fnc1-baseline](https://github.com/FakeNewsChallenge/fnc-1-baseline)).
+This repository is based on the work of the [Fake News Challenge](http://fakenewschallenge.org), and builds upon the baseline implementation produced for the challenge ([fnc1-baseline](https://github.com/FakeNewsChallenge/fnc-1-baseline)).
 
 * Author: Angus Redlarski Williams
 * Github: @angusrw
 * Email: angusrwilliams@gmail.com
+
+### Overview
+
+[Project Info](https://www.angusrw.com/work/simmer)
+
+[<img src="https://static1.squarespace.com/static/5ddc2ba5a28c1a715fbec0cc/t/609eafc44460441b08923ab6/1621012429348/tech_posterjpg.jpg">](https://static1.squarespace.com/static/5ddc2ba5a28c1a715fbec0cc/t/6071ea9b7ffe752be9575e3e/1618078365622/tech_poster.pdf)
+
+See [main.py](https://github.com/angusrw/simmer_demo/blob/master/main.py) for model implementation code.
+
+See [feature_engineering.py](https://github.com/angusrw/simmer_demo/blob/master/feature_engineering.py) for NLP feature generation code.
 
 
 ## Getting Started
@@ -32,9 +42,3 @@ Running `main.py` will train an XGBoost model on the dataset over 10 folds:
     ``python3 main.py``
 
 Features are stored after being generated to reduce time taken to run.
-
-## Results
-
-Score: 3560.5 out of 4448.5	(80.03821512869507%)
-
-F1 score: [0.36655405 0.05649718 0.73708323 0.97205102]
